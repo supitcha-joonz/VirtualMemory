@@ -1,0 +1,5 @@
+from random import randint
+
+pageAddressing = []
+for i in range(20):
+    pageAddressing.insert(i,randint(0,7))
